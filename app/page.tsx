@@ -23,6 +23,13 @@ const exercises: Exercise[] = [
     reps: 12,
     imageUrl: "/d962a803d327514dacbe35cea3e74a3a3443b167.png",
   },
+  {
+    id: "4",
+    name: "Levantamento terra",
+    sets: 3,
+    reps: 12,
+    imageUrl: "/d9e62f6cda00190bbe2430b25592dba9702b7bd1.png",
+  },
 ];
 
 export default function Home() {
