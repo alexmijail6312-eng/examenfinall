@@ -1,16 +1,11 @@
 import ExerciseListTemplate from "@/app/components/templates/ExerciseListTemplate";
 import { Exercise } from "@/app/components/organisms/ExerciseItem";
 import puxadaFrontal from "@/app/data/puxadaFrontal";
+import remadaCurvada from "@/app/data/remadaCurvada";
 
 const exercises: Exercise[] = [
   puxadaFrontal,
-  {
-    id: "2",
-    name: "Remada curvada",
-    sets: 3,
-    reps: 12,
-    imageUrl: "/9af6513a3c39d123e3225f56f18849b34f0ab91d.png",
-  },
+  remadaCurvada,
   {
     id: "3",
     name: "Remada unilateral",
