@@ -16,6 +16,13 @@ const exercises: Exercise[] = [
     reps: 12,
     imageUrl: "/9af6513a3c39d123e3225f56f18849b34f0ab91d.png",
   },
+  {
+    id: "3",
+    name: "Remada unilateral",
+    sets: 3,
+    reps: 12,
+    imageUrl: "/d962a803d327514dacbe35cea3e74a3a3443b167.png",
+  },
 ];
 
 export default function Home() {
