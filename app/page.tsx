@@ -2,17 +2,12 @@ import ExerciseListTemplate from "@/app/components/templates/ExerciseListTemplat
 import { Exercise } from "@/app/components/organisms/ExerciseItem";
 import puxadaFrontal from "@/app/data/puxadaFrontal";
 import remadaCurvada from "@/app/data/remadaCurvada";
+import remadaUnilateral from "@/app/data/remadaUnilateral";
 
 const exercises: Exercise[] = [
   puxadaFrontal,
   remadaCurvada,
-  {
-    id: "3",
-    name: "Remada unilateral",
-    sets: 3,
-    reps: 12,
-    imageUrl: "/d962a803d327514dacbe35cea3e74a3a3443b167.png",
-  },
+  remadaUnilateral,
   {
     id: "4",
     name: "Levantamento terra",
